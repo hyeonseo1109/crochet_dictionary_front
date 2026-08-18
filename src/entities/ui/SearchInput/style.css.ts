@@ -13,6 +13,7 @@ export const searchInputStyle = style({
   padding: "0.2rem 0.7rem",
   fontSize: "0.9rem",
   height: "2rem",
+  width: "20rem",
   transition: "border 0.2s ease",
 
   ":focus": {
