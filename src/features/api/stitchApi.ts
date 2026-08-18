@@ -6,7 +6,7 @@ export const getStitches = async (): Promise<ApiResponse<Stitch[]>> => {
 
   const result: ApiResponse<Stitch[]> = await response.json();
 
-  if (!response.ok) {
+  if (!response.ok || !result.success) {
     throw new Error(result.message);
   }
 
