@@ -16,7 +16,12 @@ export const MainList = () => {
       {isError && <div>에러 발생</div>}
       {/* <div> */}
       {data?.data.map((item) => (
-        <OneList key={item.id} name={item.name} level={item.difficulty} />
+        <OneList
+          key={item.id}
+          name={item.name}
+          level={item.difficulty}
+          symbols={item.symbols}
+        />
       ))}
       {/* </div> */}
     </div>
