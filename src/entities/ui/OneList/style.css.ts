@@ -5,4 +5,7 @@ export const oneListContainerStyle = style({
   flexDirection: "row",
   justifyContent: "space-between",
   width: "100%",
+  border: "1px solid black",
+  borderRadius: "10px",
+  padding: "0.2rem 1rem",
 });
